@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express(); 
 app.use(bodyParser.json())
 app.use(express.json()); 
-app.get("/", (req, res) => res.send("Express on Vercel"));
+// app.get("/", (req, res) => res.send("Express on Vercel"));
 
 app.use('/api', routes); 
 

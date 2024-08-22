@@ -2,7 +2,10 @@ const express = require('express')
 const sensorController = require('./controllers/sensorControllers.js');
 const sampleController = require('./controllers/sampleController.js');
 
-const router = express.Router(); 
+const router = express.Router();
+
+// Get API
+router.get("/", (req, res) => res.send("Express on Vercel"));
 
 // Sample router
 router.get('/sample', sampleController.index);
