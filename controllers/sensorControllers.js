@@ -1,5 +1,5 @@
 // controllers/sensorController.js
-const db = require('../db');
+const db = require('../db.js');
 
 // Get all sensors or sensors by sample_id
 exports.index = async (req, res) => {

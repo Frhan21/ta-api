@@ -1,5 +1,5 @@
 // controllers/sampleController.js
-const db = require('../db');
+const db = require('../db.js');
 
 // Get all samples
 exports.index = async (req, res) => {

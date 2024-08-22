@@ -1,5 +1,5 @@
 const express = require('express');
-const routes = require('./routes');
+const routes = require('./routes.js');
 const bodyParser = require('body-parser');
 
 const app = express(); 
@@ -13,3 +13,5 @@ const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
 })
+
+modules.exports = app
